@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DataStructure.h
+ostream
+../include/ostream
+istream
+../include/istream
+iostream
+../include/iostream
+
+../include/IMUProcessor.h
+DataStructure.h
+../include/DataStructure.h
+vector
+-
+
+/home/feixue/Research/Code/Projects/xsens/IMUProcessor/src/IMUProcessor.cpp
+cmath
+-
+IMUProcessor.h
+/home/feixue/Research/Code/Projects/xsens/IMUProcessor/src/IMUProcessor.h
+
+/home/feixue/Research/Code/Projects/xsens/IMUProcessor/src/main.cpp
+iostream
+-
+cmath
+-
+IMUProcessor.h
+/home/feixue/Research/Code/Projects/xsens/IMUProcessor/src/IMUProcessor.h
+
